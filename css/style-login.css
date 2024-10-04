@@ -1,0 +1,115 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    max-width: 1440px;
+    /* height: 1000px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: black;
+}
+.container{
+    width: 3920px;
+    height: 1080px;
+    /* background-color: aqua; */
+    
+    position: relative;
+    /* background-image: url(../imgs/desc-img.jpg); */
+}
+.form-login{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 81px;
+    left: 320px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+}
+
+.vector-x{
+    float: right;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.vector-x:hover{
+    color: rgb(255, 0, 0);
+}
+.vector-icon{
+    /* background-color: rgb(224, 190, 190); */
+    width: 800px;
+    height: 50px;
+}
+.login-h2{
+    text-align: center;
+    font-size: 30px;
+    color: #B88E2F;
+}
+.form-group{
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    /* background-color: aqua; */
+    line-height: 50px;
+    margin-top: 20px;
+}
+.form-text{
+    font-size: 22px;
+    float: left;
+    margin-left: 55px;
+    color: #B88E2F;
+}
+.form-input{
+    width: 600px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.426);
+}
+.btn-login{
+    width: 149px;
+    height: 64px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #F9F1E7;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-login:hover{
+    background-color: #ffe3c1ba;
+}
+.btn-fb-gg{
+    /* background-color: aquamarine; */
+    width: 600px;
+    height: 60px;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+.fb{
+    width: 191px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #0171D3;
+    color: white;
+    font-weight: bold;
+}
+.gg{
+    border-radius: 15px;
+    width: 167px;
+    font-size: 20px;
+    background-color: #0171d300;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.gg:hover{
+    background-color: #adadad4d;
+}
+.fb:hover{
+    background-color: #0171d377;
+}
+.vector{
+    margin-right: 5px;
+}
